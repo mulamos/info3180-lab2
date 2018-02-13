@@ -1,3 +1,87 @@
 body {
     padding-top: 5rem;
 }
+
+body {
+    padding-top: 5rem;
+}
+
+.profile_pic {
+	font-family: Arial, "Times New Roman", serif;
+    width: 48%;
+
+	border-radius: 10px;
+	border: 1px solid grey;
+    margin: auto;
+}
+
+#top {
+    margin: auto;
+    text-align: center;
+    background-color: #75AF80;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 1px;
+    line-height: 12px;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+   
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    margin-top: 35px;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+#top > p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+#bio2 {
+    margin: auto;
+    text-align: center;
+}
+
+#bio {
+    text-align: left;
+    width: 76%;
+    margin: auto;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+#bio > p {
+    margin-top: 20px;
+}
+
+#Button {
+    background-color: #72a6ee;
+    border-color: #72a6ee;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 55px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+#posts, #following {
+    display: inline-block;
+    padding-right: 45px;
+    margin-bottom: 30px;
+}
+
+#followers {
+    display: inline-block;
+}
+
+.num {
+    font-weight: bold;
+    font-size: 20px;
+}

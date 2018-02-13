@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename="app.css") }}">
+
+
+{% block main %}
+
+<div class="profile_pic">
+	<div id="top">
+		<img src="{{ url_for('static', filename="img/IMG-20171114-WA0000.jpg") }}" alt="Profile picture" style="width: 180px; height: 180px;"/>
+
+		<h1>Wonakee Amos</h1>
+		<p>@mulamos</p>
+		<p>Kingston, Jamaica</p>
+		<p>Joined {{ date }}</p>
+	</div>
+
+	<div id="bio2">
+		<div id="bio">
+			<p>
+				I am interesting.
+			</p>
+		</div>
+
+		<div id="bottom">
+			<div id="posts">
+				<p class="num">30</p>
+				<p>Posts</p>
+			</div>
+
+			<div id="following">
+				<p class="num">500</p>
+				<p>Following</p>
+			</div>
+
+			<div id="followers">
+				<p class="num">700</p>
+				<p>Followers</p>
+			</div>
+		</div>
+		<button id="Button">Follow</button>
+	</div>
+	</div>
+</div>
+
+{% endblock %}
